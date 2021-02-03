@@ -1,1 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container-fluid.con-header{
+  background-color: #2C3E50;
+}
+
+.row .col-lg-6{
+  text-align: center;
+}
+
+.container-fluid.hero{
+  background-color: #1ABC9C;
+}
+
+.container.hero{
+  background-color: #1ABC9C;
+  max-width: 600px;
+  margin: auto;
+}
