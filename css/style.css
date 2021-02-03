@@ -4,31 +4,34 @@
   box-sizing: border-box;
 }
 
-/* mix */
-.text-content-white{
-  color: white;
+body{
   text-align: center;
 }
 
-.prova{
-  background-color: #1ABC9C;
-}
-
-h2{
-  text-align: center;
-}
-
-.blue.background{
+.blue{
   background-color: #2C3E50;
-  text-align: center;
 }
 
-.green.background{
+.text-white{
+  color: white;
+}
+
+a{
+  padding: 0px 10px;
+}
+
+h4, h2, a, h5{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.green{
   background-color: #1ABC9C;
 }
 
-.lightblue.background{
-  background-color: #3A546D;
+.hero p{
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .container.hero{
@@ -39,7 +42,7 @@ h2{
 
 .container.portfolio{
   margin-bottom: 20px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .portfolio img{
@@ -50,8 +53,24 @@ h2{
 .small_container{
   max-width: 600px;
   margin: auto;
+  padding: 20px 0px;
 }
 
+.dif-al{
+  text-align: left;
+}
+
+.lightblue{
+  background-color: #3A546D;
+}
+
+.social-logo{
+  color: white;
+}
+
+#start{
+  color: #1ABC9C;
+}
 .col-md-4{
   float: left;
 }
