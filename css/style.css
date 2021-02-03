@@ -4,32 +4,49 @@
   box-sizing: border-box;
 }
 
-.container-fluid.con-header{
-  background-color: #2C3E50;
-}
-
-.row .col-lg-6{
+/* mix */
+.text-content-white{
+  color: white;
   text-align: center;
 }
 
-.container-fluid.hero{
+.prova{
   background-color: #1ABC9C;
+}
+
+h2{
+  text-align: center;
+}
+
+.blue.background{
+  background-color: #2C3E50;
+  text-align: center;
+}
+
+.green.background{
+  background-color: #1ABC9C;
+}
+
+.lightblue.background{
+  background-color: #3A546D;
 }
 
 .container.hero{
   background-color: #1ABC9C;
   max-width: 600px;
   margin: auto;
-  color: white;
-  text-align: center;
 }
 
 .container.portfolio{
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .portfolio img{
   margin-bottom: 10px;
   border-radius: 5px;
+}
+
+.small_container{
+  max-width: 600px;
+  margin: auto;
 }
