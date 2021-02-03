@@ -39,6 +39,7 @@ h2{
 
 .container.portfolio{
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .portfolio img{
@@ -49,4 +50,8 @@ h2{
 .small_container{
   max-width: 600px;
   margin: auto;
+}
+
+.col-md-4{
+  float: left;
 }
