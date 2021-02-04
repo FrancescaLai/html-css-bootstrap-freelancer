@@ -87,6 +87,13 @@ a{
   padding: 10px 0px;
 }
 
+.custom_btn{
+  background-color: #1ABC9C;
+  border: 1px solid white;
+  color: white;
+  margin: 25px;
+}
+
 #start{
   color: #1ABC9C;
 }
