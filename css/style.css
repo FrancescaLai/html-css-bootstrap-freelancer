@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bg-primary{
@@ -21,7 +22,7 @@
 }
 
 .container{
-  padding: 10px 0px;
+  padding: 30px 0px;
 }
 
 nav{
@@ -47,8 +48,37 @@ a{
 }
 
 .portfolio img{
-  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 25px;
   border-radius: 5px;
+  display: block;
+}
+
+.box-portfolio{
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #1ABC9C;
+}
+
+.fa-plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+}
+
+.box-portfolio:hover .overlay {
+  opacity: 0.8;
 }
 
 .small_container{
