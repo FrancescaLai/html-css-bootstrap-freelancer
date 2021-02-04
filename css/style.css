@@ -4,45 +4,46 @@
   box-sizing: border-box;
 }
 
-body{
-  text-align: center;
+.bg-primary{
+  background-color: #1ABC9C;
 }
 
-.blue{
+.bg-secondary{
   background-color: #2C3E50;
+}
+
+.bg-third{
+  background-color: #3A546D;
 }
 
 .text-white{
   color: white;
 }
 
+.container{
+  padding: 10px 0px;
+}
+
+nav{
+  vertical-align: middle;
+  line-height: 3;
+}
+
 a{
   padding: 0px 10px;
 }
 
-h4, h2, a, h5{
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.green{
-  background-color: #1ABC9C;
-}
-
 .hero p{
-  text-transform: uppercase;
   display: inline-block;
 }
 
 .container.hero{
-  background-color: #1ABC9C;
   max-width: 600px;
   margin: auto;
 }
 
-.container.portfolio{
-  margin-bottom: 20px;
-  margin-top: 20px;
+.hero img{
+  width: 25%;
 }
 
 .portfolio img{
@@ -53,24 +54,9 @@ h4, h2, a, h5{
 .small_container{
   max-width: 600px;
   margin: auto;
-  padding: 20px 0px;
-}
-
-.dif-al{
-  text-align: left;
-}
-
-.lightblue{
-  background-color: #3A546D;
-}
-
-.social-logo{
-  color: white;
+  padding: 10px 0px;
 }
 
 #start{
   color: #1ABC9C;
-}
-.col-md-4{
-  float: left;
 }
