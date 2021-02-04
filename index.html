@@ -28,15 +28,18 @@
       <!-- header -->
         <section class="bg-secondary">
           <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="col-xs-6">
               <h4 class="text-white">Start Bootstrap</h4>
             </div>
-            <div class="col-md-6 col-sm-6">
+            <div class="d-none d-sm-block d-md-block">
               <nav>
                 <a class="text-white" href="#">Portfolio</a>
                 <a class="text-white" href="#">About</a>
                 <a class="text-white" href="#">Contact</a>
               </nav>
+              <!-- <div class="d-block d-sm-none">
+                <button class="btn burger_btn"><i class="fas fa-bars"></i></button>
+              </div> -->
             </div>
           </div>
         </section>
@@ -47,6 +50,11 @@
         <div class="container hero">
           <img src="img/avatars.svg" alt="logo">
           <h2 class="text-white">Start Bootstrap</h2>
+          <div class="divider">
+            <div class="line-divider text-white"></div>
+            <i class="fas fa-star text-white"></i>
+            <div class="line-divider text-white"></div>
+          </div>
           <p class="text-white">Graphic artist -</p>
           <p class="text-white">Web designer -</p>
           <p class="text-white">Illustrator</p>
@@ -58,9 +66,10 @@
 
     <!-- Main -->
     <main>
+      <!-- Portfolio -->
       <section class="container portfolio">
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-xs-12">
             <h2 class="text-uppercase">Portfolio</h2>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -101,11 +110,13 @@
           </div>
         </div>
       </section>
+      <!-- Portfolio -->
+      <!-- About -->
       <section class="bg-primary">
         <div class="small_container">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12 col-sm-12">
+              <div class="col-sm-12">
                 <h2 class="text-uppercase text-white">About</h2>
               </div>
               <div class="col-md-6 col-sm-12">
@@ -121,6 +132,8 @@
           </div>
         </div>
       </section>
+      <!-- About -->
+      <!-- Contact Form-->
       <section class="small_container container">
         <h2 class="text-uppercase">Contact me</h2>
         <div class="row">
@@ -135,6 +148,7 @@
           </div>
         </div>
       </section>
+      <!-- Contact Form-->
     </main>
     <!-- /Main -->
 
